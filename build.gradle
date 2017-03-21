@@ -54,7 +54,7 @@ uploadArchives {
 }
 
 dependencies {
-    compile "org.slf4j:slf4j-api:$slf4jVersion"
+  compile "org.slf4j:slf4j-api:$slf4jVersion"
   compile "org.springframework.boot:spring-boot-autoconfigure:$springBootVersion"
   compile "org.springframework:spring-tx:$springVersion"
   compile ("com.alibaba:dubbo-config-spring:$dubboVersion")
