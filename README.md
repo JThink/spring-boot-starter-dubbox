@@ -62,8 +62,8 @@ public class DubboConfiguration {
 }
 ```
 ### 消费者
-最后两项配置项无需配置
-1. 服务引用
+1. 将上述配置项赋予正确的值(最后两项配置项无需配置)
+2. 服务引用
 ```java
 @Configuration
 public class DubboConfiguration {
@@ -77,7 +77,7 @@ public class DubboConfiguration {
     }
 }
 ```
-2. 服务调用
+3. 服务调用
 ```java
 @Service
 public class ServiceCImpl implements ServiceC {
